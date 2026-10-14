@@ -433,3 +433,13 @@ body{word-break:keep-all;overflow-wrap:break-word}
 .wc .plinks a,.wc .textlink{border-bottom:1px solid var(--fg);font-weight:700;color:var(--fg);cursor:pointer}
 .wc .plinks a:hover{color:var(--lime);border-color:var(--lime)}
 .wc .more{display:none}
+
+/* ---- 카드 아래: 눈에 덜 띄는 자세히 보기 ---- */
+.wc .plinks{margin-top:14px}
+.wc .softmore{display:inline-block;font-size:clamp(13px,.6vw + 6px,15px);font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:6px 14px;background:transparent;cursor:pointer;transition:color .15s,border-color .15s}
+.wc[data-project]:hover .softmore,.wc .softmore:hover{color:var(--fg);border-color:var(--fg)}
+
+/* ---- 창: 기본 배율 67%를 창 안에서만 상쇄해 원래 크기로 ---- */
+@media(min-width:900px){
+  dialog.sheet .sh{zoom:1.4925;width:min(1620px,calc(100vw - 24px));max-height:min(94vh,1500px)}
+}
