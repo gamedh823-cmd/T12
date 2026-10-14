@@ -425,6 +425,7 @@ body{word-break:keep-all;overflow-wrap:break-word}
 /* default-zoom: 처음 열었을 때 브라우저 배율 67% 기준으로 보이게 함 (넓은 화면에서만) */
 @media(min-width:900px){
   html{zoom:.67}
+  .wrap{max-width:2000px}
   .pc{min-height:min(520px,calc(80vh/.67))}
   dialog.sheet .sh{max-height:min(calc(90vh/.67),980px)}
 }
