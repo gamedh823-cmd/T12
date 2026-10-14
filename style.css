@@ -461,8 +461,8 @@ body{word-break:keep-all;overflow-wrap:break-word}
 .wc .wbtns a.main{font-size:18px;padding:19px 40px;box-shadow:0 6px 18px color-mix(in srgb,var(--lime) 35%,transparent)}
 
 /* 그 밖의 프로젝트: 한 줄 5개 (마지막 줄은 가운데 정렬) */
-.work.more{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
-.work.more>.wc{flex:0 0 calc((100% - 4*16px)/5);min-width:0}
-@media(max-width:1000px){.work.more>.wc{flex-basis:calc((100% - 2*16px)/3)}}
-@media(max-width:760px){.work.more>.wc{flex-basis:calc((100% - 16px)/2)}}
-@media(max-width:480px){.work.more>.wc{flex-basis:100%}}
+.work.rest9{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.work.rest9>.wc{flex:0 0 calc((100% - 4*16px)/5);min-width:0}
+@media(max-width:1000px){.work.rest9>.wc{flex-basis:calc((100% - 2*16px)/3)}}
+@media(max-width:760px){.work.rest9>.wc{flex-basis:calc((100% - 16px)/2)}}
+@media(max-width:480px){.work.rest9>.wc{flex-basis:100%}}
