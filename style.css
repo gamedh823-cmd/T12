@@ -454,3 +454,8 @@ body{word-break:keep-all;overflow-wrap:break-word}
 
 /* 카드 본문은 카드 폭에 맞춰 자연스럽게 줄바꿈 */
 .wc p{text-wrap:pretty;word-break:keep-all}
+
+/* 대표작 바로가기 버튼 키우기 */
+.wc .wbtns{gap:14px;padding-top:28px}
+.wc .wbtns a{font-size:17px;padding:18px 34px;border-width:2px}
+.wc .wbtns a.main{font-size:18px;padding:19px 40px;box-shadow:0 6px 18px color-mix(in srgb,var(--lime) 35%,transparent)}
