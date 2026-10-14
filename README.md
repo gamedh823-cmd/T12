@@ -87,7 +87,7 @@
 
 | 프로젝트 | 내가 맡은 일 |
 |---|---|
-| 의미론적 검색 엔진 (SSU DATATHON) | 데이터 전처리부터 모델링 및 최적화까지의 파트 |
+| 의미론적 검색 엔진 (SSU DATATHON) | 팀장의 역할 수행, 데이터 전처리부터 모델링 및 최적화까지의 파트 |
 | 한이음 드림업 | 전처리 파트, AI 모델 실험, 요구사항 정의서·보고서 등의 문서 작업 |
 | Monte Carlo 병렬 처리 (운영체제) | 중간 발표 전담, deterministic seed 계산 구조·checksum 검증 체계 정립, workload 조건과 평가 지표 명시, 수행일지 작성, 1.2억 trial 규모의 strong scaling·CPU utilization 실험 실행과 Speedup·Efficiency·CPU% 그래프 시각화, 4-worker 92.5~94.0% 효율과 8-worker 효율 감소 비교 분석 |
 | Autoencoder 이상 탐지 (ANN) | Layer/Node, Epoch, Batch Size·Learning Rate, Optimizer·Activation Function, Loss Function을 하나씩 바꿔 비교하는 하이퍼파라미터 최적화 실험 |
