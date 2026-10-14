@@ -451,3 +451,6 @@ body{word-break:keep-all;overflow-wrap:break-word}
 .wc .wbtns a.main{background:var(--lime);border-color:var(--lime);color:var(--on-lime)}
 .wc .wbtns a:hover{transform:translateY(-1px);color:inherit}
 .wc .wbtns a.main:hover{filter:brightness(1.08);color:var(--on-lime)}
+
+/* 카드 본문은 카드 폭에 맞춰 자연스럽게 줄바꿈 */
+.wc p{text-wrap:pretty;word-break:keep-all}
